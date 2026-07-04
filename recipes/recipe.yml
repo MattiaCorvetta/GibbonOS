@@ -26,7 +26,6 @@ modules:
         - fastfetch
         - sl
         - google-chrome-stable
-        - gnome-system-monitor
 
     remove:
       packages:
