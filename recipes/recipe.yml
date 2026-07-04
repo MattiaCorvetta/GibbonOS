@@ -19,8 +19,12 @@ modules:
 
   - type: dnf
     repos:
-       google-chrome: https://dl.google.com/linux/chrome/rpm/stable/x86_64
-#      copr:
+       google-chrome: 
+         baseurl: https://dl.google.com/linux/chrome/rpm/stable/x86_64
+         gpgkey: https://dl.google.com/linux/linux_signing_key.pub
+         gpgcheck: 1
+         enabled: 1
+#         copr:
 #        - atim
     install:
       packages:
