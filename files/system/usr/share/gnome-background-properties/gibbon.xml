@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
+  <wallpaper>
     <name>Gibbon OS Wallpaper</name>
     <filename>/usr/share/backgrounds/gibbon-wallpaper.jpg</filename>
     <options>zoom</options>
