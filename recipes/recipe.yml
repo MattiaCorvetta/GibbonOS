@@ -25,6 +25,7 @@ modules:
       packages:
         - fastfetch
         - sl
+        - google-chrome-stable
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
