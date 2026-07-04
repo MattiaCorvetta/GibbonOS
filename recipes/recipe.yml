@@ -16,11 +16,7 @@ modules:
     files:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
-        
-  - type: script
-    scripts:
-      - glib-compile-schemas /usr/share/glib-2.0/schemas/
-      
+              
   - type: dnf
 #    repos:
 #         copr:
