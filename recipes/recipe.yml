@@ -17,6 +17,12 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
+  #change distro name in GRUB
+  - type: script
+    scripts:
+      - |
+        echo "PRETTY_NAME=\"Gibbon OS\"" > /usr/lib/os-release
+        
   - type: dnf
 #    repos:
 #         copr:
