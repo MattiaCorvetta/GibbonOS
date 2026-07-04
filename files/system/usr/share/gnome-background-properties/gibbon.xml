@@ -3,7 +3,7 @@
 <wallpapers>
   <wallpaper>
     <name>Gibbon OS Wallpaper</name>
-    <filename>/usr/share/backgrounds/gibbon-wallpaper.jpg</filename>
+    <filename>/usr/share/backgrounds/gibbon-wallpaper.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#000000</pcolor>
