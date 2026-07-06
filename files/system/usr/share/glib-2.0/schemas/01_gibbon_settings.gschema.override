@@ -4,4 +4,4 @@ picture-options='zoom'
 
 [org.gnome.shell]
 # app nella dash
-favorite-apps=['org.telegram.desktop', 'com.google.Chrome.desktop','com.spotify.Client.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Shell.Extensions.desktop', 'org.gnome.Software.desktop']
+favorite-apps=[ 'google-chrome.desktop', 'com.spotify.Client.desktop', 'org.telegram.desktop.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Ptyxis.desktop', 'org.gnome.Software.desktop']
