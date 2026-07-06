@@ -49,7 +49,5 @@ modules:
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: gschema-overrides
-    files:
-      - /usr/share/glib-2.0/schemas/01_gibbon_settings.gschema.override
       
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
