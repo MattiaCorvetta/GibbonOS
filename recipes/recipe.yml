@@ -53,7 +53,6 @@ modules:
   - type: script
     snippets:
       - |
-        echo "Applicazione branding in os-release..."
         # Modifica il nome esteso (quello visto in hostnamectl)
         sed -i 's/^PRETTY_NAME=.*/PRETTY_NAME="Gibbon OS (Based on Silverblue)"/' /usr/lib/os-release
         
